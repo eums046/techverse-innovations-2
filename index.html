@@ -2,67 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TechVerse Innovations - Innovating Today, Shaping Tomorrow</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVerse Innovations</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">TechVerse Innovations</div>
-        <nav>
-            <a href="#about">About Us</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact Us</a>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <img src="assets/Images/logo.png" alt="TechVerse Logo" class="logo">
+        <div class="nav-links">
+            <a href="#solutions">Solutions</a>
+            <a href="#projects">Projects</a>
+            <a href="#insights">Insights</a>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
     <section class="hero">
-        <h1>Innovating Today, Shaping Tomorrow</h1>
-        <button class="cta-button">Learn More</button>
+        <div class="hero-content">
+            <h1 class="hero-title">Bridging Tomorrow's Technology with Today's Business</h1>
+            <p class="hero-subtitle">Strategic Innovations in AI, Blockchain & IoT</p>
+        </div>
     </section>
 
-    <section id="about" class="about">
-        <h2 class="section-title">Who We Are</h2>
-        <p>Founded by John Marcus with a vision to democratize technology, TechVerse Innovations is committed to simplifying tech adoption for businesses of all sizes. Our mission is to empower businesses with innovative and sustainable technology solutions that drive growth and efficiency.</p>
-    </section>
-
-    <section id="services" class="services">
-        <h2 class="section-title">What We Offer</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>AI Solutions</h3>
-                <p>Automate and optimize workflows using AI-powered tools that adapt to your business needs.</p>
+    <!-- Solutions Grid -->
+    <section id="solutions" class="grid-section">
+        <div class="grid-item wide">
+            <div class="grid-content">
+                <span class="category">AI Solutions</span>
+                <h2>Intelligent Automation Systems</h2>
+                <p>Transform workflows with adaptive machine learning models</p>
             </div>
-            <div class="service-card">
-                <h3>Blockchain Consulting</h3>
-                <p>Secure and enhance your transactions with blockchain technology, ensuring transparency and trust.</p>
+        </div>
+        <div class="grid-item">
+            <div class="grid-content">
+                <span class="category">Blockchain</span>
+                <h2>Secure Digital Ledgers</h2>
+                <p>Immutable transaction systems for modern enterprises</p>
             </div>
-            <div class="service-card">
-                <h3>IoT Solutions</h3>
-                <p>Transform your operations with smart IoT devices that connect your business to the future.</p>
+        </div>
+        <div class="grid-item tall">
+            <div class="grid-content">
+                <span class="category">IoT Network</span>
+                <h2>Connected Infrastructure</h2>
+                <p>Seamless device integration ecosystem</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2 class="section-title">Get in Touch</h2>
-        <form class="contact-form">
-            <div class="form-group">
-                <input type="text" placeholder="Your Name" required>
+    <!-- Project Showcase -->
+    <section id="projects" class="showcase">
+        <div class="showcase-item">
+            <div class="project-image" style="background-image: url('assets/Images/ai-project.jpg')"></div>
+            <div class="project-info">
+                <h3>AI Optimization Suite</h3>
+                <p>Case Study: Manufacturing Efficiency +240%</p>
+                <a href="#" class="project-link">View Project →</a>
             </div>
-            <div class="form-group">
-                <input type="email" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="cta-button">Send Message</button>
-        </form>
+        </div>
     </section>
 
+    <!-- Insights -->
+    <section id="insights" class="text-section">
+        <h2 class="section-title">Technology Perspectives</h2>
+        <div class="columns">
+            <p class="large-text">At the intersection of innovation and practicality, we engineer sustainable digital transformations.</p>
+            <p>Our methodology combines rigorous research with agile implementation, ensuring technological solutions that evolve with your business needs.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Innovating Today, Shaping Tomorrow</p>
-        <p>© 2025 TechVerse Innovations</p>
+        <div class="footer-content">
+            <p>© 2023 TechVerse Innovations</p>
+            <p>New York • London • Singapore</p>
+        </div>
     </footer>
 </body>
 </html>
